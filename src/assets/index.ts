@@ -1,0 +1,10 @@
+export {default as react} from './icons/react.svg';
+export {default as supabase} from './icons/supabase.svg';
+export {default as antd} from './icons/antd.svg';
+export {default as ts} from './icons/typescript.svg';
+export {default as tailwind} from './icons/tailwind.svg';
+export {default as blank} from './icons/blank.svg';
+export {default as linkedin} from './icons/linkedin.svg';
+export {default as fastLogo} from './images/fast.png';
+export {default as dl} from './images/dubizzlelabs.png';
+export {default as profile} from './images/me.jpeg';

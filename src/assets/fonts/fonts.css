@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'base';
+    src: local('Branding SF Narrow SemiBold'), local('Branding-SF-Narrow-SemiBold'),
+        url('BrandingSF-NarrowSemiBold.woff2') format('woff2'),
+        url('BrandingSF-NarrowSemiBold.woff') format('woff'),
+        url('BrandingSF-NarrowSemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+*{
+    font-family: base;
+}
