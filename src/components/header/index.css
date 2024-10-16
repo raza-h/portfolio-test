@@ -1,3 +1,17 @@
 #hide-header {
 	transition: all 200ms ease !important;
 }
+
+.nav-link {
+    color: var(--dark);
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: var(--primary);
+    transition: color 400ms ease;
+}
+
+.nav-link.active {
+    color: var(--primary);
+}

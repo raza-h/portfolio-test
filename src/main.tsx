@@ -5,6 +5,7 @@ import "./index.css";
 import "antd/dist/reset.css";
 import "./assets/fonts/fonts.css";
 import { ConfigProvider } from "antd";
+import { BrowserRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")!).render(
   <ConfigProvider
@@ -15,8 +16,10 @@ createRoot(document.getElementById("root")!).render(
       },
     }}
   >
-    <StrictMode>
-      <App />
-    </StrictMode>
+    <BrowserRouter>
+      <StrictMode>
+        <App />
+      </StrictMode>
+    </BrowserRouter>
   </ConfigProvider>
 );

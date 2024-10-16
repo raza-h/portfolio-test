@@ -3,7 +3,10 @@ import { react, supabase, antd, ts, tailwind, blank } from "../../assets";
 
 const Introduction = () => {
   return (
-    <section className="flex flex-col-reverse gap-y-20 xl:gap-y-0 xl:flex-row justify-around items-center min-h-[100vh] px-2 py-20 xl:py-4 w-[100%] xl:px-24">
+    <section
+      id="home"
+      className="flex flex-col-reverse gap-y-20 xl:gap-y-0 xl:flex-row justify-around items-center min-h-[100vh] px-2 py-20 xl:py-4 w-[100%] xl:px-24"
+    >
       <article>
         <Flex gap={8} justify="center">
           <h1 className="text-5xl">Raza Haider</h1>
